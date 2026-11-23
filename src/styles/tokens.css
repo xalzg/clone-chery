@@ -1,0 +1,53 @@
+/* ============================================================================
+ * VERIFIED DESIGN TOKENS — EXTRACTED DIRECTLY FROM https://cherykarawaci.com/
+ * Source: /vendor/frontend/assets/css/style.css & /app/css/home.css
+ * ============================================================================ */
+
+:root {
+  /* Typography */
+  --font-body: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Verified Brand & Surface Palette */
+  --chery-red: #bf3136;
+  --chery-red-hover: #e6383e;
+  --chery-red-dark: #a0292e;
+  --chery-dark: #111111;
+  --chery-gray: #2b2b2b;
+  --chery-footer-bg2: #181818;
+  --chery-surface: #f9f9f9;
+  --chery-white: #ffffff;
+
+  /* Text & Borders */
+  --chery-text: #111111;
+  --chery-body-text: #757f95;
+  --chery-card-text: #333333;
+  --chery-footer-text: #f5faff;
+  --chery-border: rgba(0, 0, 0, 0.08);
+  --chery-border-subtle: rgba(0, 0, 0, 0.05);
+  --chery-border-input: #dddddd;
+  --chery-table-head: #f2f2f2;
+
+  /* Action Accent Colors (Verified from Simulation Result Modal & Chat) */
+  --chery-blue-action: #2775e2;
+  --chery-green-action: #1dbf53;
+  --chery-dot-inactive: #b43a3a;
+  --chery-dot-active: #d14444;
+
+  /* Shadows & Radii */
+  --shadow-card: 0 0 40px 5px rgb(0 0 0 / 5%);
+  --shadow-sticky: 0 0 15px rgba(0, 0, 0, 0.17);
+  --shadow-chat: 0 1px 15px rgba(32, 33, 36, 0.28);
+  --radius-card: 10px;
+  --radius-form: 12px;
+  --radius-promo: 16px;
+  --radius-testimonial: 15px;
+  --radius-pill: 100px;
+
+  /* Transitions */
+  --transition-base: all 0.3s ease-in-out;
+  --transition-slow: all 0.5s ease-in-out;
+
+  /* Layout Container */
+  --container-max: 1200px;
+}

@@ -1,0 +1,56 @@
+/* ============================================================================
+ * VERIFIED NATIVE CSS ANIMATIONS (Replaces CDN GSAP + Lenis + Motion stack)
+ * Matches https://cherykarawaci.com/ CSS animations & respects reduced-motion.
+ * ============================================================================ */
+
+@keyframes heading-move {
+  0% {
+    transform: translateX(-1px);
+  }
+  50% {
+    transform: translateX(75px);
+  }
+  100% {
+    transform: translateX(-1px);
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes showchat {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
